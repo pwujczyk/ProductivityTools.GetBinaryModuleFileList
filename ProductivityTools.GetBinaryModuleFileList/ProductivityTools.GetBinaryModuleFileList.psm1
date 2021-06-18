@@ -1,6 +1,13 @@
 <#
 	My Function
 #>
-function Get-Function {
+function Get-BinaryModuleList {
+
+	[cmdletbinding()]
+	param(
+		[string]$Directory
+	)
+
+	Write-Verbose "Hello"
 
 }
