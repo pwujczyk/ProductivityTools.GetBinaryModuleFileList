@@ -1,12 +1,11 @@
 
+# Laste element cannot have , comma after 
 function Get-BinaryModuleList {
 
 	[cmdletbinding()]
 	param(
 		[string]$Directory = (Get-Location).Path
 	)
-
-
 	Write-Verbose "Hello"
 	Write-Verbose "Directory: $Directory"
 
