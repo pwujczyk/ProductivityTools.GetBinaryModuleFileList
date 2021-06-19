@@ -20,5 +20,6 @@ function Get-BinaryModuleList {
 	}
 	Write-Output "'$($lastElement.Name)'"
 	Write-Output ")"
-
 }
+
+Export-ModuleMember  Get-BinaryModuleList 
