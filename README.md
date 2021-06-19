@@ -34,3 +34,5 @@ Install-Module ProductivityTools.GetBinaryModuleFileList
  ```
 <!--og-image-->
  ![](Images/Example.png)
+
+ The code of the module could look a little bit complicated, but it is important not to have comma in after the last element in the FileList.
